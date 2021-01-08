@@ -7,10 +7,7 @@ import androidx.lifecycle.ViewModel
 
 open class ViewModelCart: ViewModel() {
 
-    val cartLiveData = MutableLiveData<Int>()
-     var fetchCart: LiveData<List<Category>>
+    val cartLiveData= MutableLiveData<Int>()
+     var fetchCart: LiveData<List<Category>> = CartFetcher().fetchCart()
 
-init{
-    fetchCart=CartFetcher().fetchCart()
-}
 }
