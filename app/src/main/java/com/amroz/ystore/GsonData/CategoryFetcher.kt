@@ -1,11 +1,11 @@
 package com.amroz.ystore.GsonData
 
-import Api.StoreApi
-import Models.Category
-import Models.Users
+
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import com.amroz.ystore.Api.StoreApi
+import com.amroz.ystore.Models.Category
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

@@ -1,6 +1,6 @@
 package com.amroz.ystore.GsonData
 
-import Models.Users
+import com.amroz.ystore.Models.Users
 
 
 data class UserResponse (
