@@ -57,7 +57,7 @@ class ProductFetcher {
 
 
            override fun onFailure(call: Call<ProductResponse>, t: Throwable) {
-               Log.e("fetchDetailsNews", "Failed to fetch  news Details",t)
+               Log.e("fetchDetails", "Failed to fetch   Details",t)
            }
 
            override fun onResponse(

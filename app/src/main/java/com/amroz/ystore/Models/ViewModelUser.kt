@@ -1,8 +1,6 @@
-package Models
+package com.amroz.ystore.Models
 
-import GsonData.CategoryFetcher
-import GsonData.ProductFetcher
-import GsonData.UserFetcher
+import com.amroz.ystore.GsonData.UserFetcher
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
